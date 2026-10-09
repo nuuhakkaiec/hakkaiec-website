@@ -15,17 +15,17 @@ window.CLUB_CONTENT = {
   // 拍立得：把照片放入 assets，再填入 src、title、text。留空會顯示佔位框。
   polaroids: [
   {
-    "src": "assets/photos/opening-tea.jpg",
+    "src": "assets/opening-tea.jpg",
     "title": "期初大會｜共下食茶研究所",
     "text": "115.9.17"
   },
   {
-    "src": "assets/photos/year-end.jpg",
+    "src": "assets/year-end.jpg",
     "title": "第二屆期末大會",
     "text": "113.12.18"
   },
   {
-    "src": "assets/photos/exchange-1.jpg",
+    "src": "assets/exchange-1.jpg",
     "title": "世青社合辦之日本學生交流會",
     "text": "113.9.11"
   }
@@ -37,43 +37,43 @@ window.CLUB_CONTENT = {
   ],
   photos: [
   {
-    "src": "assets/photos/workshop.jpg",
+    "src": "assets/workshop.jpg",
     "alt": "社團提供的活動照片",
     "caption": "擂茶月餅烘培體驗",
     "year": ""
   },
   {
-    "src": "assets/photos/club-group.jpg",
+    "src": "assets/club-group.jpg",
     "alt": "社團提供的活動照片",
     "caption": "創社元老們之合照",
     "year": ""
   },
   {
-    "src": "assets/photos/exchange-3.jpg",
+    "src": "assets/exchange-3.jpg",
     "alt": "世青社合辦之日本學生交流會",
     "caption": "世青社合辦之日本學生交流會",
     "year": ""
   },
   {
-    "src": "assets/photos/awards.jpg",
+    "src": "assets/awards.jpg",
     "alt": "期初大會｜頒獎典禮",
     "caption": "第三屆期初大會",
     "year": ""
   },
   {
-    "src": "assets/photos/tea-mochi.jpg",
+    "src": "assets/tea-mochi.jpg",
     "alt": "擂茶 麻糬體驗",
     "caption": "擂茶 麻糬體驗",
     "year": ""
   },
   {
-    "src": "assets/photos/exchange-2.jpg",
+    "src": "assets/exchange-2.jpg",
     "alt": "世青社合辦之日本學生交流會",
     "caption": "世青社合辦之日本學生交流會",
     "year": ""
   },
   {
-    "src": "assets/photos/club-photo-4020.jpg",
+    "src": "assets/club-photo-4020.jpg",
     "alt": "社團提供的活動照片",
     "caption": "創業講座",
     "year": ""
@@ -114,7 +114,7 @@ window.CLUB_CONTENT = {
     'LINE_ALBUM_113.12.18期末大會_261009_4.jpg': '期末大會-暖心仙草雞'
   };
   const added = files.filter(file => !current.has(file)).map(file => ({
-    src: 'assets/photos/' + file,
+    src: 'assets/' + file,
     caption: polaroids.get(file)?.title || supplied[file] || '活動回顧',
     alt: polaroids.get(file)?.title || supplied[file] || '客家風味創新烘焙課程',
     year: ''
@@ -123,7 +123,7 @@ window.CLUB_CONTENT = {
   data.photos = [...(data.photos || []), ...added].filter(photo => {
     let file = key(photo.src);
     if (file === 'S__13271065_0.jpg') {
-      photo.src = 'assets/photos/workshop.jpg';
+      photo.src = 'assets/workshop.jpg';
       file = 'workshop.jpg';
     }
     if (seen.has(file)) return false;

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="680" viewBox="0 0 700 680" fill="none">
+<title>戴藍染領巾的可愛社團機器人</title>
+<defs>
+ <linearGradient id="robot-shell" x1="225" y1="315" x2="431" y2="535" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".6" stop-color="#f6f8fb"/><stop offset="1" stop-color="#dce4ee"/></linearGradient>
+ <linearGradient id="robot-head" x1="226" y1="134" x2="422" y2="325" gradientUnits="userSpaceOnUse"><stop stop-color="#454d58"/><stop offset="1" stop-color="#141e29"/></linearGradient>
+ <linearGradient id="robot-screen" x1="246" y1="166" x2="393" y2="294" gradientUnits="userSpaceOnUse"><stop stop-color="#202f3d"/><stop offset="1" stop-color="#121c29"/></linearGradient>
+ <linearGradient id="robot-indigo" x1="274" y1="330" x2="371" y2="438" gradientUnits="userSpaceOnUse"><stop stop-color="#397eaf"/><stop offset="1" stop-color="#143e70"/></linearGradient>
+</defs>
+<g id="robot-backdrop"><path d="M175 222C205 123 403 110 502 211C591 304 552 499 448 542C331 590 164 531 141 415C127 348 146 281 175 222Z" fill="#f1f8d8"/><circle cx="489" cy="166" r="30" fill="#f0ed35"/><path d="M171 191h-23m11-11v23M523 457h-24m12-12v24" stroke="#a7cf52" stroke-width="5" stroke-linecap="round"/><circle cx="137" cy="359" r="5" fill="#c7e78a"/><circle cx="538" cy="287" r="6" fill="#c7e78a"/><path d="M445 114q10-18 20 0q10-18 20 0" stroke="#88ae66" stroke-width="3" stroke-linecap="round"/>
+<g fill="#fff"><ellipse cx="194" cy="481" rx="8" ry="15"/><ellipse cx="194" cy="481" rx="8" ry="15" transform="rotate(72 194 492)"/><ellipse cx="194" cy="481" rx="8" ry="15" transform="rotate(144 194 492)"/><ellipse cx="194" cy="481" rx="8" ry="15" transform="rotate(216 194 492)"/><ellipse cx="194" cy="481" rx="8" ry="15" transform="rotate(288 194 492)"/></g><circle cx="194" cy="492" r="4" fill="#e0bf49"/></g>
+<ellipse class="robot-shadow" cx="341" cy="570" rx="115" ry="17" fill="#567758" opacity=".12"/>
+<g class="robot-character">
+<g id="robot-left-arm"><path d="M230 359C208 357 196 379 190 405L180 445C176 465 188 476 203 475C218 474 224 459 226 444L245 389Z" fill="url(#robot-shell)" stroke="#c5d0db" stroke-width="3"/><path d="M190 428l31 9" stroke="#c5d0db" stroke-width="3"/><path d="M197 405l-4 16" stroke="#a6b5c5" stroke-width="4" stroke-linecap="round"/></g>
+<g class="robot-wave-arm" id="robot-right-arm"><path d="M445 349C464 345 481 364 491 386L516 435C524 452 518 466 503 470C487 475 477 460 470 447L440 391Z" fill="url(#robot-shell)" stroke="#c5d0db" stroke-width="3"/><path d="M478 432l30-13" stroke="#c5d0db" stroke-width="3"/><path d="M480 392l8 17" stroke="#a6b5c5" stroke-width="4" stroke-linecap="round"/><ellipse cx="449" cy="364" rx="26" ry="29" transform="rotate(-20 449 364)" fill="#fff" stroke="#c5d0db" stroke-width="3"/></g>
+<path d="M262 336C240 351 229 392 225 452C221 506 226 536 262 543C299 550 382 550 416 541C449 532 452 508 447 456C442 392 431 348 410 336Z" fill="url(#robot-shell)" stroke="#c5d0db" stroke-width="3"/>
+<path d="M251 462C248 492 249 510 263 518" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+<ellipse cx="238" cy="362" rx="27" ry="29" fill="#fff" stroke="#c5d0db" stroke-width="3"/>
+<rect x="286" y="302" width="104" height="45" rx="20" fill="#233e58"/>
+<path d="M268 333Q338 351 411 333L394 371L338 437L282 371Z" fill="url(#robot-indigo)" stroke="#20476f" stroke-width="2"/>
+<g fill="#eef7ff"><path d="M276 344l16 8 13-4 18 10 16-7 20 7 12-9 15 3 18-10-8 19-15 4-12-3-14 10-19-10-15 6-19-10-16 1Z"/><path d="M295 383l12-6 15 8 16-4 15 6 14-10 13 6-12 14-16 4-15-6-14 4-14-9-8 1Z"/><path d="M319 414l13-6 14 6 11-6-19 24Z"/></g>
+<g fill="#a7d4ec" opacity=".65"><circle cx="289" cy="338" r="4"/><circle cx="363" cy="365" r="4"/><circle cx="316" cy="377" r="3"/><circle cx="349" cy="401" r="3"/></g>
+<path d="M221 155C243 126 290 117 340 117C392 117 439 127 458 157C475 185 475 267 456 295C436 324 389 329 340 329C285 329 243 324 222 297C203 271 203 186 221 155Z" fill="#e9eff4" stroke="#bcc7d3" stroke-width="3"/>
+<path d="M231 158C251 135 291 128 340 128C385 128 429 136 447 159C464 183 464 267 447 288C429 311 387 317 340 317C291 317 250 312 231 289C214 266 214 183 231 158Z" fill="url(#robot-head)" stroke="#121e29" stroke-width="3"/>
+<path d="M243 175C262 160 300 157 340 157C380 157 418 160 435 175V277C410 287 378 291 340 291C300 291 266 287 243 277Z" fill="url(#robot-screen)"/>
+<path d="M236 165C253 146 284 140 309 139" stroke="#71808b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="340" cy="144" r="3.5" fill="#6e8696"/>
+<g class="robot-eyes"><g stroke="#27c8ff" stroke-width="14" opacity=".12"><circle cx="287" cy="219" r="22"/><circle cx="392" cy="219" r="22"/></g><g stroke="#44d2ff" stroke-width="4.5"><circle cx="287" cy="219" r="22"/><circle cx="392" cy="219" r="22"/></g><g fill="#c5f3ff"><circle cx="280" cy="211" r="4"/><circle cx="385" cy="211" r="4"/></g></g>
+<g display="none" class="robot-happy-eyes" stroke="#44d2ff" stroke-width="5" stroke-linecap="round"><path d="M267 222q20-28 40 0M372 222q20-28 40 0"/></g>
+<path class="robot-mouth" d="M328 251q11 8 23 0" stroke="#44d2ff" stroke-width="4" stroke-linecap="round"/>
+<g fill="#ed9baf" opacity=".55"><ellipse cx="264" cy="250" rx="10" ry="5"/><ellipse cx="416" cy="250" rx="10" ry="5"/></g>
+<path d="M229 207v30M451 207v30" stroke="#32bce7" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="kiwi-companion" aria-label="依社團手繪插圖製作的奇異鳥"><ellipse cx="518" cy="585" rx="65" ry="7" fill="#82704e" opacity=".12"/><g class="kiwi-peek"><g stroke="#302e29" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+<path d="M485 550C467 548 454 565 455 582M455 580C443 574 442 578 443 585M455 581l-2 7M455 581q13 3 10 7M550 544C568 538 581 562 581 580M581 580q-14-3-13 7M581 578l-1 9M581 579q12-4 10 6" fill="none"/>
+<path d="M481 481C480 465 491 441 509 431C526 419 541 421 557 435C570 446 569 462 567 477C578 481 582 521 575 538C568 562 548 572 525 572C509 578 475 561 467 546C457 524 465 500 481 481Z" fill="#918958"/>
+<g class="kiwi-face"><g class="kiwi-eyes"><path d="M497 449C502 436 515 438 513 451C512 465 502 469 493 463C489 460 492 452 497 449Z" fill="#fffef8"/><path d="M535 442C549 439 558 450 556 461C554 473 539 473 535 465C532 459 533 447 535 442Z" fill="#fffef8"/><ellipse cx="504" cy="450" rx="6" ry="10" transform="rotate(16 504 450)" fill="#171717" stroke="none"/><ellipse cx="543" cy="452" rx="5.5" ry="10" fill="#171717" stroke="none"/></g><path d="M511 470Q523 463 527 477Q514 483 505 496Q499 506 501 495Q503 481 511 470Z" fill="#ffe782"/></g></g></g></g>
+</svg>

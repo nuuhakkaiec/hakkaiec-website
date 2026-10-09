@@ -1,0 +1,22 @@
+/* Motion direction: layered illustration, generous easing, flowing type. */
+.hero-line{display:block}.hero-art{translate:var(--pointer-x,0px) var(--pointer-y,0px);transition:translate .65s cubic-bezier(.2,.7,.2,1)}
+.idea-ribbon{overflow:hidden;border-block:1px solid #d7e9b9;background:#f6fbe9;padding:21px 0;color:#75aa34;user-select:none}
+.idea-track{display:flex;width:max-content}.idea-group{display:flex;align-items:center;gap:46px;padding-right:46px;flex-shrink:0;font:800 clamp(23px,3.4vw,47px)/1.2 var(--sans);letter-spacing:.035em;white-space:nowrap}.idea-group b{color:#accf38;font-size:1.2em;font-weight:400}
+.motion-on .idea-track{animation:idea-flow 32s linear infinite}.idea-ribbon:hover .idea-track{animation-play-state:paused}
+.motion-on .hero-line{animation:line-enter .95s cubic-bezier(.2,.75,.2,1) both}.motion-on .hero-line:nth-child(2){animation-delay:.14s}
+.motion-on .hero-description{animation:line-enter .9s .27s both}.motion-on .hero-copy>.button{animation:line-enter .9s .4s both}
+.motion-on .hero-art>svg{animation:world-enter 1.5s cubic-bezier(.16,.75,.25,1) both}
+.motion-on .motion-world{animation:world-breathe 8s ease-in-out infinite;transform-origin:55% 60%}
+.motion-on .brand-flower{transition:rotate .8s cubic-bezier(.2,.7,.2,1)}.brand:hover .brand-flower{rotate:72deg}
+.motion-on .reveal{opacity:0;translate:0 30px;transition:opacity .8s ease var(--reveal-delay,0ms),translate .9s cubic-bezier(.16,.75,.25,1) var(--reveal-delay,0ms)}
+.motion-on .reveal.is-revealed{opacity:1;translate:0 0}
+.button span{display:inline-block;transition:transform .35s}.button:hover span{transform:translate(4px,-4px)}
+.project-card{transition:translate .4s}.project-card:hover{translate:0 -6px}.photo:not(.photo-empty){transition:transform .4s}.photo:not(.photo-empty):hover{transform:rotate(0) translateY(-7px)}
+.motion-toggle{position:fixed;right:18px;bottom:16px;z-index:8;border:1px solid #a4c773;background:#fffffff0;color:#406b22;border-radius:24px;padding:9px 15px;font:12px var(--sans);box-shadow:0 3px 16px #406b2210;backdrop-filter:blur(10px)}
+.motion-toggle:disabled{opacity:.75;cursor:default}.motion-paused *,.page-hidden *{animation-play-state:paused!important}.motion-paused .reveal{opacity:1;translate:none}.motion-paused .hero-line,.motion-paused .hero-description,.motion-paused .hero-copy>.button,.motion-paused .hero-art>svg{animation:none!important;opacity:1;transform:none}
+@keyframes line-enter{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes world-enter{from{opacity:0;transform:translateY(32px) rotate(-5deg) scale(.92)}to{opacity:1;transform:translateY(0) rotate(0) scale(1)}}
+@keyframes world-breathe{0%,100%{transform:translateY(0) rotate(-.6deg)}50%{transform:translateY(-9px) rotate(.6deg)}}
+@keyframes idea-flow{to{transform:translateX(-50%)}}
+@media(max-width:800px){.idea-ribbon{padding:17px 0}.idea-group{gap:26px;padding-right:26px}.motion-on .idea-track{animation-duration:25s}.motion-toggle{font-size:11px;right:12px;bottom:12px}.hero-art{translate:none}}
+@media(prefers-reduced-motion:reduce){.idea-track{animation:none!important}.idea-group+ .idea-group{display:none}.idea-group{flex-wrap:wrap;white-space:normal;gap:15px;font-size:17px;padding:0 20px}.idea-track{width:100%}.hero-art{translate:none!important}.reveal{opacity:1!important;translate:none!important}.motion-toggle{display:none}*,*:before,*:after{animation:none!important;transition:none!important}}

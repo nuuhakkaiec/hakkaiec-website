@@ -1,0 +1,14 @@
+:root{background:#faf8ed;color:#244d3e}
+header{background:#faf8edf2;border:0;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+.back{border:1px solid #008766;border-radius:30px;padding:10px 20px;color:#008766}
+main{max-width:none;padding:0 7% 90px}
+.page-heading{position:relative;isolation:isolate;overflow:hidden;margin:15px -3% 55px;padding:65px 6%;background:linear-gradient(110deg,#12bec2,#29ce8c);border-radius:30px 30px 100px 30px}
+.page-heading:before{content:'';position:absolute;z-index:-1;right:-10%;top:-50%;width:75%;height:170%;border:22px solid #fff5bb;border-radius:50%;rotate:-24deg}
+.page-heading p{color:#174e3f}.page-heading h1{color:#fff;font-size:64px;margin-bottom:0}
+.term-tabs{max-width:1100px;margin:0 auto 55px;border-color:#00876640}.term-tab{border-color:#008766;background:transparent;color:#006b50}.term-tab[aria-selected=true]{background:#008766}
+#members-panel{max-width:1100px;margin:auto}#member-list{gap:90px}
+.member{gap:65px}.member-photo{border:0;border-radius:90px 20px 20px 20px;overflow:hidden;background-color:#d9eee0}.member-photo:before{display:none}
+.member:nth-child(even) .member-photo{border-radius:20px 90px 20px 20px}
+.member-copy h3{color:#244d3e}.role{background:#008766;border-radius:20px;padding:7px 20px}.bio{background:#fff;border:0;border-radius:0 24px 24px 24px;padding:28px;line-height:2}
+footer{background:#15bea8;color:#163e34}
+@media(max-width:800px){main{padding:0 25px 65px}.page-heading{margin:10px -12px 35px;padding:45px 25px;border-radius:22px 22px 65px 22px}.page-heading h1{font-size:42px}.page-heading:before{border-width:14px;right:-55%;width:120%}.member{gap:28px}.member-photo{max-width:380px}.term-tabs{gap:8px}.term-tab{padding:12px 10px}.bio{padding:22px}.back{padding:8px 12px}}

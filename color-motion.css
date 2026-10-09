@@ -1,0 +1,19 @@
+/* Soft color shapes echo the club's playful illustrated world. */
+#about-copy{white-space:pre-line}
+.hero,.section{position:relative;isolation:isolate}
+.color-scene{position:absolute;inset:0;overflow:hidden;z-index:-1;pointer-events:none}
+.color-blob{position:absolute;display:block;width:240px;height:270px;border-radius:42% 58% 66% 34% / 55% 40% 60% 45%;background:#e7efad}
+.blob-a{right:-75px;top:30px;rotate:-18deg}.blob-b{left:-85px;bottom:5%;width:180px;height:200px;background:#dcefeb;rotate:25deg}
+.color-orbit{position:absolute;display:block;width:76px;height:76px;border:3px solid #d5d9b5;border-radius:50%;right:8%;bottom:8%}
+.hero .blob-a{right:3%;top:7%;width:300px;height:300px;background:#f3e890}.hero .blob-b{left:auto;right:3%;bottom:12%;background:#eed6df;width:220px;height:220px}.hero .color-orbit{left:2%;bottom:15%;width:90px;height:90px;border-color:#a4d4cb}
+.intro .blob-a{background:#e0eeed;width:280px;height:320px;right:-100px}.intro .blob-b{background:#f9efc2;left:-110px;bottom:-60px}.intro .color-orbit{right:4%;bottom:15%;border-color:#bed3c3}
+.principles .blob-a{background:#e2ebad;right:-100px;top:-130px;width:350px;height:350px}.principles .blob-b{background:#e4ecd2;left:35%;bottom:-145px;width:300px;height:220px}.principles .color-orbit{display:none}
+.projects .blob-a{background:#efdae5;width:200px;height:220px;top:28px;right:-75px}.projects .blob-b{background:#dcefeb;bottom:-90px;width:250px;height:270px}.projects .color-orbit{right:5%;bottom:4%;border-color:#dfd29d}
+.events .blob-a{background:#e7efbf;right:-100px;top:-75px}.events .blob-b{background:#d6e7df;left:-105px;bottom:10%}.events .color-orbit{left:34%;bottom:8%;border-color:#d9c8dc}
+.moments .blob-a{background:#f4e5a2;right:10%;top:15%;width:160px;height:190px}.moments .blob-b{background:#d8e9e8;left:-40px;bottom:23%}.moments .color-orbit{display:none}
+.archive .blob-a{width:190px;height:180px;right:-110px;top:-80px;background:#e4eac6}.archive .blob-b,.archive .color-orbit{display:none}
+.motion-on .color-blob{animation:color-drift 9s ease-in-out infinite alternate,color-morph 14s ease-in-out infinite alternate}.motion-on .blob-b{animation-duration:12s,17s;animation-delay:-5s,-8s}.motion-on .color-orbit{animation:color-drift 11s ease-in-out -4s infinite alternate}
+@keyframes color-drift{from{transform:translate3d(0,-12px,0) rotate(-7deg)}to{transform:translate3d(16px,15px,0) rotate(9deg)}}
+@keyframes color-morph{from{border-radius:42% 58% 66% 34% / 55% 40% 60% 45%}to{border-radius:63% 37% 44% 56% / 39% 62% 38% 61%}}
+@media(max-width:800px){.color-blob{opacity:.65;width:140px;height:170px}.hero .blob-a{width:180px;height:200px;top:55%;right:-35px}.hero .blob-b{width:150px;height:150px;bottom:8%;right:-50px}.hero .color-orbit{width:48px;height:48px;left:4%;bottom:17%}.intro .blob-a{right:-190px}.color-orbit{width:44px;height:44px}.moments .blob-a{width:110px;height:130px;right:-45px}.archive .blob-a{right:-150px}}
+@media(prefers-reduced-motion:reduce){.color-blob,.color-orbit{animation:none!important}}

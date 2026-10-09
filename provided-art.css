@@ -1,0 +1,22 @@
+.provided-art{display:block;object-fit:contain;pointer-events:none;user-select:none}
+.hero-tea{position:absolute;width:260px;height:260px;left:3%;bottom:32px;rotate:-12deg}.hero-leaves{position:absolute;width:125px;height:180px;left:-35px;top:190px;rotate:35deg;opacity:.85}.intro{padding-right:max(28%,calc((100vw - 1220px)/2 + 280px))}.about-vase{position:absolute;right:5%;bottom:85px;width:210px;height:290px;rotate:9deg}.intro .large-copy{max-width:900px}.intro .blob-a{right:-140px}.principle-art-row{display:grid;grid-template-columns:repeat(3,1fr);align-items:center;gap:60px;margin-top:38px}.principle-art-row .provided-art{width:100%;height:155px}.principle-brush{rotate:-14deg}.principle-hand{rotate:13deg}.principle-robot{height:185px!important}.principle:before,.principle-icon span{display:none}.principle:nth-child(2){padding-top:45px}.principle:nth-child(3){padding-top:15px}.events{position:relative}.events-bus{position:absolute;left:7%;bottom:45px;width:270px;height:200px;rotate:-5deg}.event-copy{padding-bottom:210px}.closing-leaves{position:absolute;right:4%;bottom:-65px;width:220px;height:300px;rotate:-25deg;opacity:.9}.closing>span{display:none}
+.motion-on .hero-tea,.motion-on .about-vase,.motion-on .principle-art-row .provided-art,.motion-on .closing-leaves{animation:provided-float 8s ease-in-out infinite alternate}.motion-on .principle-robot{animation-delay:-3s}.motion-on .principle-hand{animation-delay:-5s}.motion-on .events-bus{animation:provided-bus 10s ease-in-out infinite alternate}@keyframes provided-float{to{transform:translateY(-10px) rotate(3deg)}}@keyframes provided-bus{to{transform:translateX(16px) rotate(1deg)}}
+@media(max-width:1100px) and (min-width:801px){.hero-tea{width:210px;height:210px}.about-vase{width:160px;height:220px}.events-bus{width:210px}}
+@media(max-width:800px){.hero-tea{width:155px;height:155px;left:-15px;bottom:12px}.hero-leaves{width:65px;height:100px;left:-30px;top:420px}.intro{padding-right:25px;padding-bottom:35px}.about-vase{position:relative;right:auto;bottom:auto;margin:28px 10px 0 auto;width:130px;height:170px}.principle,.principle:nth-child(2),.principle:nth-child(3){padding:0;min-height:0}.principle-grid{gap:36px}.principle-art-row{gap:16px;margin-top:30px}.principle-art-row .provided-art{height:95px}.principle-robot{height:110px!important}.events-bus{position:relative;left:auto;bottom:auto;width:200px;height:140px;grid-column:1;justify-self:start;grid-row:3}.event-copy{padding-bottom:0}.calendar-shell{grid-row:4}.closing-leaves{width:120px;height:170px;right:-30px;bottom:-25px;opacity:.55}.closing .button{position:relative;z-index:1}}
+@media(prefers-reduced-motion:reduce){.provided-art{animation:none!important}}
+
+/* Three principles: larger typography, illustrations relocated. */
+.principle-icon small{font-size:18px;line-height:1.6}.principle h3{font-size:44px;line-height:1.5;margin:16px 0}.principle p{font-size:22px;line-height:1.9}.principles{padding-bottom:100px}
+.polaroid-brush{width:220px;height:85px;margin:18px 20px 0 auto;rotate:-12deg}.moments-robot{width:145px;height:165px;margin:15px 7% 0 auto;position:relative;z-index:1}.closing-hand{position:absolute;right:18%;bottom:12px;width:150px;height:210px;rotate:12deg}.motion-on .polaroid-brush,.motion-on .moments-robot,.motion-on .closing-hand{animation:provided-float 9s ease-in-out infinite alternate}
+@media(max-width:800px){.principle-icon small{font-size:16px}.principle h3{font-size:36px}.principle p{font-size:20px}.principles{padding-bottom:65px}.polaroid-brush{width:150px;height:65px}.moments-robot{width:105px;height:120px}.closing-hand{position:relative;right:auto;bottom:auto;width:110px;height:150px;margin:24px 10px 0 auto}}
+@media(prefers-reduced-motion:reduce){.polaroid-brush,.moments-robot,.closing-hand{animation:none!important}}
+
+/* Align the three principles and the About text on shared baselines. */
+.principle,.principle:nth-child(2),.principle:nth-child(3){padding-top:0}
+.intro-grid{align-items:stretch;text-align:left}
+.intro-grid>h2,.intro-grid>div,.intro .large-copy{width:100%;max-width:none;margin-left:0;margin-right:0}
+.projects .blob-b{display:none}
+.projects-robot{position:relative;width:165px;height:185px;margin:20px auto -65px 0;z-index:1}
+.motion-on .projects-robot{animation:provided-float 9s ease-in-out infinite alternate}
+@media(max-width:800px){.projects-robot{width:115px;height:130px;margin:15px auto -45px 0}}
+@media(prefers-reduced-motion:reduce){.projects-robot{animation:none!important}}

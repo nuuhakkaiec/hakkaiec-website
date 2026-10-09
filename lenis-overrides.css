@@ -1,0 +1,3 @@
+html.lenis,html.lenis body{height:auto}
+html.lenis{scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}

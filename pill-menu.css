@@ -1,0 +1,18 @@
+.site-header{height:100px;flex-wrap:nowrap;gap:24px}.site-header .brand{margin-right:auto}
+#nav{flex:0 1 auto;display:flex;gap:3px;padding:6px;background:#fff;border-radius:60px;justify-content:center}
+#nav a,#nav a:nth-child(n){background:transparent;border:0;border-radius:40px;transform:none;box-shadow:none;padding:14px 14px;min-height:50px;font-size:13px;font-weight:700;color:#244d3e;transition:background .2s,color .2s}
+#nav a:before,#nav a:after{display:none}
+#nav a:hover,#nav a:focus-visible{background:#e3f1e4;transform:none;box-shadow:none}
+#nav a[aria-current]{outline:0;background:#e3f1e4}
+#nav a.nav-join{background:#12bda6;color:#fff;padding:14px 22px}
+#nav a.nav-join:hover{background:#008766}
+.polaroid:before,.polaroid:after{display:none!important}
+#photo-filters{display:none!important}
+.principles-marquee{overflow:hidden;background:#faf8ed;color:#008766;padding:35px 0 45px;border-top:1px solid #00876630}
+.principles-marquee-track{display:flex;width:max-content;animation:principles-stream 45s linear infinite}
+.principles-marquee-group{display:block;flex-shrink:0;padding-right:55px;white-space:nowrap;font-size:clamp(48px,7.5vw,112px);font-weight:900;line-height:1.25;letter-spacing:-.035em}
+@keyframes principles-stream{to{transform:translateX(-50%)}}
+.page-hidden .principles-marquee-track{animation-play-state:paused}
+@media(min-width:801px) and (max-width:1200px){.site-header{height:150px;flex-wrap:wrap;justify-content:center;padding:10px 20px;gap:8px}.site-header .brand{margin:0}#nav{flex-basis:100%;gap:0}#nav a:nth-child(n){font-size:12px;padding:10px 14px}}
+@media(max-width:800px){.site-header{height:80px;padding:12px 20px}.site-header .brand{margin-right:auto}#nav{display:none}#nav.open{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:14px;left:15px;right:15px;top:80px;border-radius:25px;background:white;border:0;box-shadow:0 8px 25px #244d3e12}#nav a:nth-child(n){font-size:14px;min-height:50px;padding:10px}#nav a:last-child{grid-column:1/-1;justify-self:stretch}.principles-marquee{padding:25px 0}}
+@media(prefers-reduced-motion:reduce){.principles-marquee-track{animation:none}.principles-marquee-group{white-space:normal;font-size:32px;padding:0 25px}.principles-marquee-track{width:auto}.principles-marquee-group[aria-hidden]{display:none}}

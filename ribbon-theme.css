@@ -1,0 +1,66 @@
+/* Club visual direction: open cream space, vivid turquoise and continuous ribbons. */
+:root{--ink:#244d3e;--green:#008766;--cream:#faf8ed;--mint:#22c9b2;--line:#244d3e30}
+body{background:#faf8ed;color:#244d3e}
+h1,h2,h3,h4,.hero-brand-title,.hero h1,.eyebrow,.section-number,.principle h3,.calendar-top,.resources h3,.closing h2{color:#244d3e}
+.site-header{position:sticky;top:0;height:98px;padding:16px 4%;gap:32px;background:#faf8edf2;border:0;backdrop-filter:blur(12px)}
+.site-header.is-scrolled{background:#faf8edf5}.site-header .brand{width:auto;margin-right:auto}.site-header .club-logo{width:255px}
+nav{gap:23px;font-size:14px;white-space:nowrap}.nav-join{display:inline-flex;background:#d4a348;color:#fff;border:0;padding:11px 20px}
+.hero{min-height:820px;margin:0 24px;background:linear-gradient(115deg,#12bec2,#29ce8c);border-radius:32px 32px 90px 32px;isolation:isolate}
+.hero:before{inset:28px 28px 65px;width:auto;height:auto;background:#dcf3dd;border-radius:26px 26px 150px 26px;rotate:0}
+.hero:after{left:-12%;top:80px;bottom:auto;width:120%;height:520px;border:24px solid #fff5bb;border-radius:50%;rotate:-18deg;z-index:1}
+.hero-copy{padding:80px 7% 0;width:100%;text-align:left;position:relative;z-index:3}
+.hero-brand-title{font-size:clamp(48px,5.7vw,82px);max-width:950px;letter-spacing:.025em;line-height:1.2;margin-bottom:26px}
+.hero .eyebrow{font-size:15px;letter-spacing:.16em;margin:0 0 28px}
+.hero h1{font-size:clamp(24px,2.8vw,40px);line-height:1.7;max-width:650px}
+.hero h1 .hero-line{display:block}.hero h1 .hero-line+.hero-line:before{content:none}
+.hero-description{font-size:17px;line-height:2;max-width:520px;margin:30px 0}
+.hero-art.robot-stage{top:325px;right:3%;left:auto;width:470px;height:455px;z-index:2}
+.hero-tea{width:160px;height:160px;left:8%;bottom:35px;z-index:2}.hero-leaves{top:auto;bottom:45px;left:-25px;width:110px}
+.hero .color-scene{display:none}
+.section{padding:110px 8%;max-width:none}
+.section h2{font-size:clamp(36px,3.5vw,52px);line-height:1.5;font-weight:900}
+.section-number{font-size:13px;letter-spacing:.13em;margin-bottom:28px}
+.intro{background:transparent;min-height:600px;padding-right:31%}
+.intro-grid{gap:35px;align-items:stretch}.intro .large-copy{font-size:18px;line-height:2.2;white-space:pre-line}
+.intro .color-scene{display:none}.about-vase{width:220px;height:300px;right:6%;bottom:100px}
+.intro .text-link{border-color:#008766;color:#008766}
+.principles{background:#12bda6;border-radius:120px 0 120px 0;color:#123e32;overflow:hidden}
+.principles .color-scene{display:none}.principles h2,.principles .section-number{color:#fff}
+.principle-grid{gap:50px;padding-top:20px}
+.principle,.principle:nth-child(2),.principle:nth-child(3){padding:30px 0 0;border-top:1px solid #ffffff90}
+.principle-icon small{font-size:15px;letter-spacing:.06em;color:#fff}.principle h3{font-size:46px;color:#fff;margin:20px 0}.principle p{font-size:19px;line-height:2;color:#133f35}
+.projects{background:#faf8ed;padding-top:100px;padding-bottom:70px}.projects .color-scene{display:none}
+.polaroid-track{gap:45px;padding-top:30px;padding-bottom:40px;scrollbar-color:#009a77 transparent}
+.polaroid{background:#fff!important;border:0;border-radius:20px;padding:15px 15px 25px;box-shadow:0 10px 0 #e7ebd8}
+.polaroid:nth-child(2){background:#fff4c9!important}.polaroid:nth-child(3){background:#def4e8!important}
+.polaroid-frame{border:0;border-radius:12px;background:#e2eee5}.polaroid:before{background:#15bea8;opacity:.5}.polaroid h3{font-size:23px}
+.projects-robot{width:175px;height:190px;margin-top:45px}
+.events{background:#e3f1e4;border-radius:0 100px 0 100px;gap:40px 65px;align-items:start}
+.events .color-scene{display:none}.events-heading h2{font-size:42px}
+.event-copy{font-size:18px}.calendar-shell{border:0;border-radius:24px;padding:25px;background:#fff}.calendar-top{font-size:20px}.calendar-top span+span{font-size:11px}
+.primary,.closing .button{background:#008766;color:#fff}.primary:hover,.closing .button:hover{background:#006f54}
+.moments{background:#faf8ed;padding-top:115px;padding-bottom:110px}.moments .color-scene{display:none}.moments:after{display:none}
+.photo-grid{gap:45px;padding-top:35px}.photo .photo-visual{border:0;border-radius:30px;aspect-ratio:4/3}.photo:nth-child(3n+2) .photo-visual{clip-path:none;border-radius:100px 24px 24px 24px;aspect-ratio:4/3}.photo:nth-child(3n+2){filter:none}
+.photo span{background:none;font-size:15px;padding-top:20px}.photo-grid:before,.photo-grid:after{display:none}
+.archive{background:#fff2b7;border-radius:100px 0 0 0}.archive .color-scene{display:none}.archive .generation-columns>div,.archive .resources{border-color:#244d3e50}
+.archive .generation-columns h4,.archive .resources h3{font-size:30px}.archive a:hover{color:#008766}
+.closing{background:linear-gradient(115deg,#13bdc3,#29cc8f);border-radius:0 0 0 0;padding:100px 8%;overflow:hidden}
+.closing h2{font-size:52px;color:#fff;position:relative;z-index:1}.closing>p{color:#164b3e}.closing .button{background:#faf8ed;color:#245541;border:0;padding:18px 30px}
+.closing:before{content:'';position:absolute;right:-12%;top:10%;width:65%;height:80%;border:20px solid #fff5bb90;border-radius:50%;rotate:-22deg;pointer-events:none}
+footer{background:#faf8ed;padding:40px 8%;border:0}.motion-toggle{background:#faf8ed;border-color:#008766;color:#245541}
+@media(max-width:1100px) and (min-width:801px){.site-header{gap:20px;padding:15px 3%}.site-header .club-logo{width:205px}nav{gap:14px;font-size:12px}.hero-brand-title{font-size:64px}.hero-art.robot-stage{right:0;width:420px}.hero-description{max-width:400px}}
+@media(max-width:800px){
+.site-header{height:80px;padding:12px 20px}.site-header .club-logo{width:220px}.menu-toggle{background:#008766;color:#fff;border:0;border-radius:30px;padding:10px 14px;font-size:12px}nav.open{background:#faf8ed;top:80px}nav .nav-join{display:inline-flex}
+.hero{margin:0 12px;min-height:890px;border-radius:24px 24px 65px 24px}.hero:before{inset:14px 14px 35px;border-radius:20px 20px 70px 20px}.hero:after{width:145%;height:440px;left:-26%;top:295px;border-width:15px;rotate:-28deg}
+.hero-copy{padding:50px 28px 0;text-align:left}.hero-brand-title{font-size:44px;line-height:1.3;margin:0 0 22px;max-width:350px}
+.hero .eyebrow{font-size:12px;letter-spacing:.03em}.hero h1{font-size:24px;line-height:1.8}.hero-description{font-size:15px;margin:22px 0;line-height:1.9}
+.hero-art.robot-stage{top:485px;right:-8px;width:320px;height:310px}.hero-tea{width:110px;height:110px;left:10px;bottom:20px}.hero-leaves{width:65px;bottom:130px;top:auto}
+.section{padding:75px 25px}.section h2{font-size:34px}.section-number{font-size:11px}.intro{padding-bottom:35px}.intro .large-copy{font-size:17px;line-height:2}.about-vase{position:relative;width:120px;height:160px;right:auto;bottom:auto;margin:30px 0 0 auto}
+.principles{border-radius:60px 0 60px 0}.principle-grid{gap:35px}.principle,.principle:nth-child(2),.principle:nth-child(3){padding-top:25px}.principle h3{font-size:38px}.principle p{font-size:18px}
+.projects{padding-left:15px;padding-right:15px}.polaroid-track{gap:25px}.projects-robot{width:125px;height:140px}
+.events{border-radius:0 55px 0 55px;gap:28px}.calendar-shell{padding:14px;min-width:0;border-radius:18px}.calendar-top{font-size:17px}.calendar-top span+span{font-size:9px}.calendar-shell iframe{height:490px}
+.moments{padding-right:0}.photo-grid{gap:25px}.photo span{font-size:14px}.archive{border-radius:55px 0 0 0}.archive .generation-columns h4,.archive .resources h3{font-size:clamp(16px,4.2vw,26px)}
+.closing{padding:70px 25px}.closing h2{font-size:36px}.closing:before{right:-40%;width:110%;top:35%;height:50%;border-width:14px}.closing-hand{position:relative}.closing-leaves{right:0}
+footer{padding:30px 25px}
+}
+@media(max-width:800px){.hero-brand-title{text-wrap:balance;font-size:40px;max-width:290px}}

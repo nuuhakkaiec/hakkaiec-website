@@ -1,0 +1,14 @@
+.deeds{overflow:visible;background:#faf8ed;padding-bottom:100px}
+.deeds-heading h2{background:none;border:0;padding:0;transform:none}.deeds-heading:after{display:none}
+.folder-stack{border:0;position:relative;padding-bottom:25px}
+.deed-folder{--folder-color:#b9dfdd;position:sticky;top:calc(130px + var(--folder-index)*58px);z-index:calc(1 + var(--folder-index));padding-top:58px;margin-bottom:75px;scroll-margin-top:calc(135px + var(--folder-index)*58px)}
+.deed-folder:nth-child(2){--folder-color:#12bda6}.deed-folder:nth-child(3){--folder-color:#e2d797}
+.folder-tab{position:absolute;left:calc(var(--folder-index)*145px);top:0;width:145px;height:65px;border:0;border-radius:23px 23px 0 0;background:var(--folder-color);color:#244d3e;font-size:23px;font-weight:700;padding-bottom:8px;transition:height .25s,translate .25s}
+.folder-tab:hover,.folder-tab:focus-visible{translate:0 -6px;height:71px}
+.folder-body{position:relative;display:grid;grid-template-columns:1fr 1.1fr;gap:50px;align-items:center;min-height:470px;padding:40px 45px 40px 65px;border-radius:0 28px 28px 28px;background:var(--folder-color);overflow:hidden}
+.folder-copy{position:relative;z-index:1}.folder-copy h3{font-size:42px;line-height:1.5;margin:0 0 25px}.folder-copy p{font-size:18px;line-height:2;white-space:pre-line}.folder-copy .button{margin-top:35px;background:#faf8ed;color:#244d3e}.folder-date{font-size:14px!important;margin-bottom:18px}
+.folder-visual{display:grid;place-items:center;aspect-ratio:1.25;background:#ffffff60;border-radius:23px;color:#244d3e;font-size:16px;overflow:hidden}.folder-visual img{width:100%;height:100%;object-fit:cover;transition:transform .7s}.folder-body:hover img{transform:scale(1.025)}
+.folder-body:before{content:'';position:absolute;width:320px;height:320px;border:35px solid #ffffff18;border-radius:45%;left:-180px;top:60px;rotate:25deg}
+@media(max-width:1200px) and (min-width:801px){.deed-folder{top:calc(165px + var(--folder-index)*58px);scroll-margin-top:calc(170px + var(--folder-index)*58px)}}
+@media(max-width:800px){.deed-folder{top:calc(90px + var(--folder-index)*43px);padding-top:43px;margin-bottom:50px;scroll-margin-top:calc(95px + var(--folder-index)*43px)}.folder-tab{left:calc(var(--folder-index)*90px);width:90px;height:50px;font-size:18px;border-radius:17px 17px 0 0}.folder-tab:hover{height:56px}.folder-body{grid-template-columns:1fr;gap:25px;min-height:0;padding:28px 25px;border-radius:0 22px 22px 22px}.folder-copy h3{font-size:30px;margin-bottom:14px}.folder-copy p{font-size:16px}.folder-visual{aspect-ratio:1.7}.deeds{padding-bottom:60px}}
+@media(prefers-reduced-motion:reduce){.folder-tab,.folder-visual img{transition:none}}

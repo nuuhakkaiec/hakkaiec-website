@@ -1,0 +1,7 @@
+<a class="experience-card" href="herb-experience.html">
+  <div class="experience-art"><img src="herb-experience-finished.png" alt="一顆軟 Q 的草仔粿" loading="lazy"></div>
+  <span class="experience-tag">04 ／ 揉製・包餡</span>
+  <h3>草仔粿出籠囉！</h3>
+  <p>揉進艾草、包入餡料，掀開蒸籠，讓草仔粿滿場 Q 彈。</p>
+  <span class="experience-go">來包一顆 ↗</span>
+</a>

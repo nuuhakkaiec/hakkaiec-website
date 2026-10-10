@@ -1,0 +1,21 @@
+草仔粿 GitHub 上傳包
+
+1. 解壓縮本 ZIP。
+2. 在 nuuhakkaiec/hakkaiec-website 的根目錄選 Add file → Upload files。
+3. 打開 upload-these-files 資料夾，把裡面所有檔案一起拖入上傳頁（不要上傳資料夾本身，也不要只上傳 ZIP）。
+4. 按 Commit changes，等 GitHub Pages 更新。
+
+遊戲網址：
+https://nuuhakkaiec.github.io/hakkaiec-website/herb-experience.html
+
+檔名全部以 herb-experience 開頭。本包不含 index.html、content.js、experiences.css，亦不含其他遊戲檔案，不會替換原首頁或其他遊戲。
+若 GitHub 已存在同名 herb-experience 檔案，此次會更新該草仔粿檔案，請提交前查看清單。
+
+首頁入口（選做）：
+因為這次不覆蓋首頁，單純上傳不會自動增加首頁卡片。
+在 GitHub 開啟根目錄 index.html → 編輯，搜尋 cake-experience.html。
+找到煎粄切切樂卡片結尾 </a>，在後面、experience-grid 的結尾 </div> 之前，貼上 homepage-card.txt 的完整內容。
+只新增這段，不要刪除既有卡片或取代整份首頁。
+原有三欄版面會把第四個卡片排在下一列。
+
+READ-ME.txt 和 homepage-card.txt 是說明用，不必上傳。

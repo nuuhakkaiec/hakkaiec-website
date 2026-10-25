@@ -1,4 +1,4 @@
-// 在這裡修改歷屆幹部；所有幹部均不放照片。
+// 歷屆幹部資料；photo 可指定個別角色圖片。
 (() => {
 const generations = [
 {title:'第一屆', members:[
@@ -31,7 +31,7 @@ doˊ nginˇ su idˋ di iaˋ fun pongˊ pai ge vunˇ fa viˇ sanˋ。
 {role:'總務',name:'許峰嫙'}, {role:'文書',name:'葉品均'},
 {role:'美宣',name:'高甯麗'}, {role:'活動',name:'王禹蘋'}]},
 {title:'第二屆',members:[{role:'社長',name:'劉佳玲'},{role:'活動長',name:'王禹蘋'},{role:'總務文書',name:'Rita承茹'}]},
-{title:'第三屆',members:[{role:'社長',name:'楊子瑩'},{role:'副社長',name:'徐愛'},{role:'總務',name:'王文惠'},{role:'公關',name:'劉佳玲'}]}
+{title:'第三屆',members:[{role:'社長',name:'楊子瑩',photo:'assets/third-president-20261023.png',cutout:true},{role:'副社長',name:'徐愛'},{role:'總務',name:'王文惠'},{role:'公關',name:'劉佳玲'},{role:'活動',name:'楊濬瑜 PP',photo:'assets/third-activity-pp-20261023.png',cutout:true}]}
 ];
 function renderRoster(){
  const main=document.querySelector('main');
@@ -93,6 +93,7 @@ function renderRoster(){
    // 照片依屆數與卡片順序命名，例如 assets/members/1-01.jpg。
    // 也可在上方 member 資料加入 photo: 'assets/你的照片.jpg' 指定路徑。
    const photo=make('img','roster-photo','');
+   if(member.cutout){photo.style.objectFit='contain';photo.style.objectPosition='center';photo.style.background='transparent';photo.style.height='100%';}
    photo.alt=member.name+'｜'+member.role+'角色圖';
    // 圖片在載入完成前隱藏，不能使用 lazy，否則可能永遠不觸發載入。
    photo.loading='eager';

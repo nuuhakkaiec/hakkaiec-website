@@ -79,7 +79,7 @@ window.CLUB_CONTENT = {
     "year": ""
   }
 ], // {src:'assets/照片.jpg', alt:'照片描述', caption:'活動名稱', year:'2026'}
-  deeds: [{title:"有AI哈客松創點子大賽", text:"社員參與2024年桃園市政府客家事務局「有AI哈客松創點子大賽」，榮獲第三名，展現客語人工智慧應用之創新發想與技術整合能力。參賽作品結合客語語音合成、語音辨識及圖像生成等技術，打造個人化專屬客語繪本，將AI導入語言學習與文化教育情境，提升學習互動性與趣味性。此成果充分展現團隊在客語科技教育領域的創新基礎與跨域整合實力，並獲得競賽評審肯定。", date:"", image:"assets/哈客松.png", url:""}, {title:"首創的HAKKA AI VTuber", text:"創創社攜手智慧客家實驗室，推出全新客家AI VTuber，結合人工智慧與客家文化，透過虛擬直播主與民眾即時互動。社團以創意、創新、創業為核心，鼓勵青年運用科技探索客家文化，打造多元交流平台，讓客家文化更貼近年輕世代。", date:"", image:"assets/hakka-ai-vtuber.jpg", url:"https://www.hakkatv.org.tw/news-detail/1747197138245613"}, {title:"客家創新創業社 × USR Hub：青年創新與客家文化實踐", text:"創創社第三屆以創意、創新、創業為核心，結合智慧客家實驗室資源，推動客家AI科技應用。本學期更投入USR Hub種子型計畫，透過文化體驗、跨域學習及青年實作，促進學生與在地社區交流，讓客家文化融入校園生活，展現青年創新活力。", date:"", image:"", url:""}], // 填入 {date: "日期", title: "事跡標題", text: "內容", url: "相關連結（可留空）"}
+  deeds: [{title:"有AI哈客松創點子大賽", text:"社員參與2024年桃園市政府客家事務局「有AI哈客松創點子大賽」，榮獲第三名，展現客語人工智慧應用之創新發想與技術整合能力。參賽作品結合客語語音合成、語音辨識及圖像生成等技術，打造個人化專屬客語繪本，將AI導入語言學習與文化教育情境，提升學習互動性與趣味性。此成果充分展現團隊在客語科技教育領域的創新基礎與跨域整合實力，並獲得競賽評審肯定。", date:"", image:"assets/哈客松.png", url:""}, {title:"首創的HAKKA AI VTuber", text:"創創社攜手智慧客家實驗室，推出全新客家AI VTuber，結合人工智慧與客家文化，透過虛擬直播主與民眾即時互動。社團以創意、創新、創業為核心，鼓勵青年運用科技探索客家文化，打造多元交流平台，讓客家文化更貼近年輕世代。", date:"", image:"assets/hakka-ai-vtuber.jpg", url:"https://www.hakkatv.org.tw/news-detail/1747197138245613"}, {title:"客家創新創業社 × USR Hub：青年創新與客家文化實踐", text:"創創社第三屆以創意、創新、創業為核心，結合智慧客家實驗室資源，推動客家AI科技應用。本學期更投入USR Hub種子型計畫，透過文化體驗、跨域學習及青年實作，促進學生與在地社區交流，讓客家文化融入校園生活，展現青年創新活力。", date:"", image:"assets/usr-hub-youth-practice-20261024.jpg", url:""}], // 填入 {date: "日期", title: "事跡標題", text: "內容", url: "相關連結（可留空）"}
   resources: [], // {title:'文件名稱', description:'用途說明', url:'https://...'}
   generations: [
     {id:'current',label:'本屆',period:'年度待補',members:[],achievements:[]},
@@ -130,3 +130,121 @@ window.CLUB_CONTENT = {
     seen.add(file); return true;
   });
 })();
+
+// 活動照片精選：2026-10-24 新增 19 張照片（日期為整理日期）。
+window.CLUB_CONTENT.photos.push(...[
+  {
+    "src": "assets/moments-added-20261024-01.png",
+    "caption": "青年創新實作｜積木作品展示",
+    "alt": "青年創新實作｜積木作品展示",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-02.png",
+    "caption": "創意共作｜積木與點子",
+    "alt": "創意共作｜積木與點子",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-03.png",
+    "caption": "小組合作｜積木模型實作",
+    "alt": "小組合作｜積木模型實作",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-04.png",
+    "caption": "創意交流｜便利貼發想",
+    "alt": "創意交流｜便利貼發想",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-05.png",
+    "caption": "客家米食｜手作成品",
+    "alt": "客家米食｜手作成品",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-06.png",
+    "caption": "客家米食｜蒸製成果",
+    "alt": "客家米食｜蒸製成果",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-07.png",
+    "caption": "客家米食｜分享手作成果",
+    "alt": "客家米食｜分享手作成果",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-08.png",
+    "caption": "客家米食｜料理示範",
+    "alt": "客家米食｜料理示範",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-09.png",
+    "caption": "客家米食｜動手炒製餡料",
+    "alt": "客家米食｜動手炒製餡料",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-10.png",
+    "caption": "客家米食｜一起料理",
+    "alt": "客家米食｜一起料理",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-11.png",
+    "caption": "客家米食｜餡料製作",
+    "alt": "客家米食｜餡料製作",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-12.png",
+    "caption": "客家米食｜課堂示範紀錄",
+    "alt": "客家米食｜課堂示範紀錄",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-13.png",
+    "caption": "USR Hub｜活動大合照",
+    "alt": "USR Hub｜活動大合照",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-14.png",
+    "caption": "擂茶烘焙｜烤箱中的點心",
+    "alt": "擂茶烘焙｜烤箱中的點心",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-15.png",
+    "caption": "擂茶烘焙｜實作教學",
+    "alt": "擂茶烘焙｜實作教學",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-16.png",
+    "caption": "擂茶烘焙｜成果大合照",
+    "alt": "擂茶烘焙｜成果大合照",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-17.png",
+    "caption": "擂茶烘焙｜擀製麵皮",
+    "alt": "擂茶烘焙｜擀製麵皮",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-18.png",
+    "caption": "擂茶烘焙｜分製內餡",
+    "alt": "擂茶烘焙｜分製內餡",
+    "year": ""
+  },
+  {
+    "src": "assets/moments-added-20261024-19.png",
+    "caption": "擂茶烘焙｜配方教學",
+    "alt": "擂茶烘焙｜配方教學",
+    "year": ""
+  }
+]);

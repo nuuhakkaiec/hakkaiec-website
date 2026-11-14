@@ -78,7 +78,7 @@ function renderRoster(){
  document.head.append(style);
  main.className='roster-page';
  const make=(tag,cls,text)=>{const node=document.createElement(tag);node.className=cls;node.textContent=text;return node;};
- main.replaceChildren(make('h1','roster-heading','歷屆幹部'));
+ main.replaceChildren(document.getElementById('advisors'), make('h2','roster-heading','歷屆幹部'));
  for(const [generationIndex,generation] of generations.entries()){
   const section=make('section','roster-section','');
   section.id=['first','second','third'][generationIndex];

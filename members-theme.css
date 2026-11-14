@@ -12,3 +12,19 @@ main{max-width:none;padding:0 7% 90px}
 .member-copy h3{color:#244d3e}.role{background:#008766;border-radius:20px;padding:7px 20px}.bio{background:#fff;border:0;border-radius:0 24px 24px 24px;padding:28px;line-height:2}
 footer{background:#15bea8;color:#163e34}
 @media(max-width:800px){main{padding:0 25px 65px}.page-heading{margin:10px -12px 35px;padding:45px 25px;border-radius:22px 22px 65px 22px}.page-heading h1{font-size:42px}.page-heading:before{border-width:14px;right:-55%;width:120%}.member{gap:28px}.member-photo{max-width:380px}.term-tabs{gap:8px}.term-tab{padding:12px 10px}.bio{padding:22px}.back{padding:8px 12px}}
+
+#advisors {margin:0 6vw clamp(64px,8vw,120px); color:#20554d}
+#advisor-title {margin:0 0 48px;font-size:clamp(36px,5vw,64px);line-height:1.2;color:inherit}
+.advisor-terms {display:grid;grid-template-columns:2fr 1fr 2fr;gap:clamp(16px,3vw,48px)}
+.advisor-term {--ring:#82964c;text-align:center;min-width:0}
+.advisor-term:nth-child(2) {--ring:#8d80aa}
+.advisor-term:nth-child(3) {--ring:#558e9c}
+.advisor-term h2 {font-size:1.2rem;border:1px solid var(--ring);border-radius:2em;width:fit-content;margin:0 auto 28px;padding:.25em 1.25em}
+.advisor-people {display:flex;justify-content:center;gap:clamp(12px,2vw,32px)}
+.advisor-people figure {margin:0;flex:1;max-width:220px;min-width:0}
+.advisor-frame {aspect-ratio:1;overflow:hidden;border-radius:50%;border:3px solid var(--ring);outline:1px solid var(--ring);outline-offset:4px}
+.advisor-frame img {display:block;width:100%;height:100%;object-fit:cover}
+.advisor-people figcaption {display:grid;gap:4px;margin-top:16px}
+.advisor-people strong {font-size:clamp(20px,2vw,28px)}
+.advisor-people span {font-size:1rem}
+@media(max-width:760px){.advisor-terms{grid-template-columns:1fr;gap:36px}.advisor-people figure{max-width:150px}.advisor-term h2{margin-bottom:20px}}
